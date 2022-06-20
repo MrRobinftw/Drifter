@@ -5,6 +5,9 @@ namespace Drifter.Extensions
 {
     public static partial class DrifterExtensions
     {
+        /// <summary>
+	    /// <see href="https://x-engineer.org/real-world-fuel-consumption/">(M2.4) Formula</see>  
+	    /// </summary>
         public static void CalcFuel(this BaseVehicle vehicle, FuelModule fuel, float powerInkW)
         {
             const float densityOfFuel = 0.85f;
