@@ -22,21 +22,5 @@ namespace Drifter.Extensions
                     3 => $"{index}rd",
                     _ => $"{index}th",
                 };
-
-        public static string GetAutomaticGearText(this GearboxComponent gearbox)
-        {
-            //return gearMode switch
-            //{
-            //    Gearbox.AutomaticGear.M => "[M]P R N D L ",
-            //    Gearbox.AutomaticGear.P => " M[P]R N D L ",
-            //    Gearbox.AutomaticGear.R => " M P[R]N D L ",
-            //    Gearbox.AutomaticGear.N => " M P R[N]D L ",
-            //    Gearbox.AutomaticGear.D => " M P R N[D]L ",
-            //    Gearbox.AutomaticGear.L => " M P R N D[L]",
-            //    _ => " M P R N D L ",
-            //};
-
-            return string.Empty;
-        }
     }
 }
